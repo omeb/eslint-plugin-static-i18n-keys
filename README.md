@@ -24,9 +24,9 @@ Future plans: also validate `<Trans />`` component's `"i18nKey"` contains static
 - **Detailed Reports:** Generates clear and concise ESLint reports that pinpoint violations of "t" function usage, simplifying the process of identifying and rectifying problematic code.
 - **Smooth Integration:** Effortlessly integrate into your development workflow through simple installation and usage instructions.
 
-Elevate your codebase's quality and streamline your localization process by harnessing the capabilities of "eslint-static-i18n-keys." Ensure that the your translation keys are consistently and accurately employed throughout your project, leading to more dependable and maintainable code.
+Elevate your codebase's quality and streamline your localization process by harnessing the capabilities of "eslint-plugin-static-i18n-keys." Ensure that the your translation keys are consistently and accurately employed throughout your project, leading to more dependable and maintainable code.
 
-![image](https://github.com/omeb/eslint-static-i18n-keys/assets/7505578/f566c76c-9b12-4307-86a5-11f1e3f86010)
+![image](https://github.com/omeb/eslint-plugin-static-i18n-keys/assets/7505578/f566c76c-9b12-4307-86a5-11f1e3f86010)
 
 
 
@@ -37,7 +37,7 @@ Elevate your codebase's quality and streamline your localization process by harn
 Install the plugin:
 
 ```bash
-npm install eslint eslint-static-i18n-keys --save-dev
+npm install eslint eslint-plugin-static-i18n-keys --save-dev
 ```
 
 ### Configuration
@@ -73,4 +73,4 @@ Review the ESLint reports to identify and correct any violations of translation 
 Contributions are welcome! Feel free to fork this repository, make changes, and submit pull requests.
 
 ### License
-This project is licensed under the [MIT License](https://github.com/omeb/eslint-static-i18n-keys/blob/main/LICENSE).
+This project is licensed under the [MIT License](https://github.com/omeb/eslint-plugin-static-i18n-keys/blob/main/LICENSE).

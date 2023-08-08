@@ -1,5 +1,5 @@
 {
-  "name": "eslint-static-i18n-keys",
+  "name": "eslint-plugin-static-i18n-keys",
   "version": "0.0.5",
   "author": "Omer Burshtein",
   "description": "An ESLint plugin designed to enforce proper usage of the \"t\" function within your codebase, ensuring that it only receives a single static string value",
