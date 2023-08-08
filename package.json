@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-t-validator",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Omer Burshtein",
   "description": "An ESLint plugin designed to enforce proper usage of the \"t\" function within your codebase, ensuring that it only receives a single static string value",
   "repository": "git@github.com:omeb/eslint-plugin-t-validator.git",

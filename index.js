@@ -44,19 +44,11 @@ module.exports = {
         function validateTCall(node) {
           const args = node.arguments;
 
-          if (args.length !== 1) {
-            context.report({
-              node: node,
-              message: 'Function "t" should only be called with a single argument.',
-            });
-            return;
-          }
-
           const arg = args[0];
           if (!isStringExpressionOrStaticString(arg)) {
             context.report({
               node: arg,
-              message: 'Function "t" should only be called with a single static string value or a logical expression that results in a string value.',
+              message: 'Function "t" should only be called with a static string value or a logical expression that results in a string value as the first parameter.',
             });
           }
         }
