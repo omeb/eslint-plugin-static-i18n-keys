@@ -7,6 +7,14 @@ This plugin focuses on validating the proper usage of the "t" function within yo
 
 ### Key Features
 
+- ✅️ Runs via `eslint .` – no new tooling
+- ✅️ Prevents string concatenation usage
+- ✅️ Prevents template literal usage
+- ✅️ Prevents variables usage
+- ✅️ Handles expressions that result in a full static string (e.g. ternary operator)
+- ✅️ [eslint-plugin-import] friendly
+- ✅️ No dependencies
+
 - **Static String Validation:** Identifies instances where the "t" function is improperly invoked with dynamic values like template literals, expressions, or variables.
 - **Enhanced Code Quality:** Encourages best practices by mandating a standardized approach to "t" function usage, mitigating the risk of subtle bugs and challenging-to-debug issues.
 - **Customizable Configuration:** Seamlessly integrate the plugin into your project's ESLint setup and tailor the rule to align with your team's coding conventions.
@@ -14,7 +22,6 @@ This plugin focuses on validating the proper usage of the "t" function within yo
 - **Smooth Integration:** Effortlessly integrate into your development workflow through simple installation and usage instructions.
 
 Elevate your codebase's quality and streamline your localization process by harnessing the capabilities of "eslint-plugin-t-validator." Ensure that the "t" function is consistently and accurately employed throughout your project, leading to more dependable and maintainable code.
-
 
 
 ### Installation
@@ -27,11 +34,11 @@ npm install eslint eslint-plugin-t-validator --save-dev
 
 ### Configuration
 
-Configure ESLint in your project to include the `"eslint-plugin-t-validator"` plugin and enable the rule. In your ESLint configuration file (.eslintrc.js or .eslintrc.json), make sure to add `"eslint-plugin-t-validator"` to the list of plugins and enable the rule:
+Configure ESLint in your project to include the `"t-validator"` plugin and enable the rule. In your ESLint configuration file (.eslintrc.js or .eslintrc.json), make sure to add `"t-validator"` to the list of plugins and enable the rule:
 
 ```js
 {
-  "plugins": ["eslint-plugin-t-validator"],
+  "plugins": ["t-validator"],
   "rules": {
     "t-validator/no-invalid-t-usage": "error"
   }
