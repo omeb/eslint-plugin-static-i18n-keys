@@ -56,7 +56,7 @@ module.exports = {
           if (!isStringExpressionOrStaticString(arg)) {
             context.report({
               node: arg,
-              message: 'Function "t" should only be called with a single static string value or a string expression.',
+              message: 'Function "t" should only be called with a single static string value or a logical expression that results in a string value.',
             });
           }
         }
