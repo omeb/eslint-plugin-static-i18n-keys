@@ -70,7 +70,7 @@ ESLint will scan your project's files and report any instances where translation
 Review the ESLint reports to identify and correct any violations of translation key usage rule. The reports will clearly point out locations where the function is being used incorrectly, ensuring you can fix the issues promptly.
 
 ### Thanks
-Thanks to [Ran Yitzhaki](https://github.com/ranyitz) for raising the need and providing the name. Also, thanks to [Illia Panasenko](https://github.com/ipanasenko) for pointing out initial issues.
+Thanks to [Ran Yitzhaki](https://github.com/ranyitz) for raising the need, discussing the proposed solution and for providing the eventual package name. Also, thanks to [Illia Panasenko](https://github.com/ipanasenko) for pointing out initial issues.
 
 ### Contributing
 Contributions are welcome! Feel free to fork this repository, make changes, and submit pull requests.
