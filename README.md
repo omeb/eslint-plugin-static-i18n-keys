@@ -4,7 +4,7 @@ An ESLint plugin designed to improve code quality and enforce consistent coding 
 
 This plugin focuses on validating the proper usage of the "t" function within your codebase, ensuring that it exclusively receives a static string value or a logical expression that evaluates to a string as a first parameter. By disallowing the use of template literals, string concatenation, and variables as arguments for "t," this plugin aids in preventing potential runtime errors, bolstering localization support, and enhancing code legibility.
 
-Future plans: also validate `<Trans />`` component's `"i18nKey"` contains static strings only.
+Future plans: also validate `<Trans />` component's `i18nKey` contains a static string value or a logical expression that results in a string.
 
 
 ### Key Features
