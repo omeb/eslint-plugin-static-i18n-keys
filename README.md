@@ -23,6 +23,10 @@ This plugin focuses on validating the proper usage of the "t" function within yo
 
 Elevate your codebase's quality and streamline your localization process by harnessing the capabilities of "eslint-plugin-t-validator." Ensure that the "t" function is consistently and accurately employed throughout your project, leading to more dependable and maintainable code.
 
+![image](https://github.com/omeb/eslint-plugin-t-validator/assets/7505578/6cefc4e7-d948-45db-975f-aa354d75c7da)
+
+
+
 
 ### Installation
 
