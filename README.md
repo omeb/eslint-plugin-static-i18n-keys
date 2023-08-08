@@ -50,7 +50,7 @@ Configure ESLint in your project to include the `"t-validator"` plugin and enabl
 }
 ```
 
-This configuration ensures that ESLint will enforce the rule that the "t" function should only receive a single static string value.
+This configuration ensures that ESLint will enforce the rule that the "t" function should only receive a static string value or a logical expression that evaluates to a string as a first parameter.
 
 ### Run ESLint
 
