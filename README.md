@@ -26,7 +26,8 @@ Future plans: also validate `<Trans />`` component's `"i18nKey"` contains static
 
 Elevate your codebase's quality and streamline your localization process by harnessing the capabilities of "eslint-plugin-static-i18n-keys." Ensure that the your translation keys are consistently and accurately employed throughout your project, leading to more dependable and maintainable code.
 
-![image](https://github.com/omeb/eslint-plugin-static-i18n-keys/assets/7505578/f566c76c-9b12-4307-86a5-11f1e3f86010)
+![image](https://github.com/omeb/eslint-plugin-static-i18n-keys/assets/7505578/c723cb2a-200b-4740-a46e-c3076d7be46f)
+
 
 
 
