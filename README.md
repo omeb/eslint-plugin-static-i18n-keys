@@ -2,7 +2,7 @@
 
 An ESLint plugin designed to improve code quality and enforce consistent coding practices.
 
-This plugin focuses on validating the proper usage of the "t" function within your codebase, ensuring that it exclusively receives a single static string value. By disallowing the use of template literals, expressions, and variables as arguments for "t," this plugin aids in preventing potential runtime errors, bolstering localization support, and enhancing code legibility.
+This plugin focuses on validating the proper usage of the "t" function within your codebase, ensuring that it exclusively receives a static string value or a logical expression that evaluates to a string as a first parameter. By disallowing the use of template literals, string concatenation, and variables as arguments for "t," this plugin aids in preventing potential runtime errors, bolstering localization support, and enhancing code legibility.
 
 
 ### Key Features
@@ -10,7 +10,7 @@ This plugin focuses on validating the proper usage of the "t" function within yo
 - ✅️ Runs via `eslint .` – no new tooling
 - ✅️ Prevents string concatenation usage
 - ✅️ Prevents template literal usage
-- ✅️ Prevents variables usage
+- ✅️ Prevents variables usage as key
 - ✅️ Handles expressions that result in a full static string (e.g. ternary operator)
 - ✅️ [eslint-plugin-import] friendly
 - ✅️ No dependencies
@@ -23,7 +23,8 @@ This plugin focuses on validating the proper usage of the "t" function within yo
 
 Elevate your codebase's quality and streamline your localization process by harnessing the capabilities of "eslint-plugin-t-validator." Ensure that the "t" function is consistently and accurately employed throughout your project, leading to more dependable and maintainable code.
 
-![image](https://github.com/omeb/eslint-plugin-t-validator/assets/7505578/6cefc4e7-d948-45db-975f-aa354d75c7da)
+![image](https://github.com/omeb/eslint-plugin-t-validator/assets/7505578/f566c76c-9b12-4307-86a5-11f1e3f86010)
+
 
 
 
