@@ -23,10 +23,14 @@ This plugin focuses on validating the proper usage of the `t` function / `<Trans
 
 Elevate your codebase's quality and streamline your localization process by harnessing the capabilities of "eslint-plugin-static-i18n-keys." Ensure that the your translation keys are consistently and accurately employed throughout your project, leading to more dependable and maintainable code.
 
+##### `no-invalid-t-usage` rule:
 
 ![image](https://github.com/omeb/eslint-plugin-static-i18n-keys/assets/7505578/c723cb2a-200b-4740-a46e-c3076d7be46f)
 
 
+##### `no-invalid-trans-component-usage` rule:
+
+![image](https://github.com/omeb/eslint-plugin-static-i18n-keys/assets/7505578/37c734da-b915-43bc-8b75-45fb1a9560de)
 
 
 ### Installation
