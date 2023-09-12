@@ -15,7 +15,7 @@ This plugin focuses on validating the proper usage of the `t` function / `<Trans
 - ✅️ No dependencies
 - ✅️ Validates `Trans` component
 
-- **Static String Validation:** Identifies instances where `<Trans />` component's `i18nextKey`` prop or the `t` function is improperly invoked with dynamic values like template literals, expressions, or variables.
+- **Static String Validation:** Identifies instances where `<Trans />` component's `i18nextKey` prop or the `t` function is improperly invoked with dynamic values like template literals, expressions, or variables.
 - **Enhanced Code Quality:** Encourages best practices by mandating a standardized approach to translation key usage, mitigating the risk of subtle bugs and challenging-to-debug issues.
 - **Customizable Configuration:** Seamlessly integrate the plugin into your project's ESLint setup and tailor the rule to align with your team's coding conventions.
 - **Detailed Reports:** Generates clear and concise ESLint reports that pinpoint violations of static translation key usage, simplifying the process of identifying and rectifying problematic code.
@@ -54,7 +54,7 @@ Configure ESLint in your project to include the `"static-i18n-keys"` plugin and 
   "plugins": ["static-i18n-keys"],
   "rules": {
     "static-i18n-keys/no-invalid-t-usage": "error",
-    'static-i18n-keys/no-invalid-trans-component-usage': 'error',
+    "static-i18n-keys/no-invalid-trans-component-usage": "error",
   }
 }
 ```
